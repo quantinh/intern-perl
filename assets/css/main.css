@@ -1,0 +1,822 @@
+body {
+	font-size: 1.4rem;
+	font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
+		"Hiragino Mincho Pro", "Times New Roman", "游明朝", YuMincho, "メイリオ",
+		Meiryo, Georgia, serif;
+	font-weight: 400;
+	line-height: 1.4;
+}
+a {
+	color: #707070;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.container {
+	width: 1120px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+/*==================== Header =====================*/
+#header {
+	background: url(../images/bg_keyvisual.jpg) no-repeat center/cover;
+	height: 790px;
+}
+.header-logo {
+	margin-top: 12px;
+}
+.header-logo .header-logo-img {
+	width: 115px;
+}
+#header nav {
+	margin-top: 12px;
+}
+#header nav ul#main-menu {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 14px;
+}
+#header nav ul#main-menu li {
+	margin-right: 50px;
+}
+#header nav ul#main-menu li a {
+	color: #707070;
+	font-weight: 500;
+	font-size: 14px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header nav ul#main-menu li:nth-child(6),
+#header nav ul#main-menu li:nth-child(7) {
+	margin-right: 16px;
+}
+#header nav ul#main-menu li:last-child {
+	margin-right: 0;
+}
+.user-link i,
+.heart-link i,
+.cart-link i {
+	color: #333333;
+	font-size: 16px;
+}
+.cart-notice {
+	position: absolute;
+	top: -6px;
+	right: -10px;
+	width: 17px;
+	height: 17px;
+	padding: 0px 6px;
+	font-size: 12px;
+	border-radius: 20px;
+	color: white;
+	background-color: #f4584b;
+}
+/*==================== Main =====================*/
+.section-top {
+	position: absolute;
+	top: 395px;
+	left: 221px;
+}
+.content-section {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.main-bg {
+	position: absolute;
+	top: -142px;
+	right: -105px;
+	width: 704px;
+}
+.content-title {
+	font-family: "Raleway", sans-serif;
+	color: #333;
+	font-weight: 700;
+	line-height: 1;
+	font-size: 72px;
+	letter-spacing: 0.1em;
+}
+.content-intro {
+	margin-top: -8px;
+	color: #333;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0.25em;
+}
+.content-button {
+	margin-top: 42px;
+	background-color: #333333;
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: 15px 70px;
+}
+.icon-arrow {
+	font-size: 11px;
+	line-height: 0.2;
+}
+.content-button:hover {
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+	outline: none;
+}
+/*==================== section-natural =====================*/
+.section-common-brand {
+	padding: 80px 0 205px;
+}
+.wp-section-brand {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-common-brand .common-title {
+	text-align: left;
+}
+.common-line {
+	color: #c1c1c1;
+	width: 25%;
+	height: 1px;
+	text-align: left;
+	margin: 20px 4px 30px 0;
+}
+.is-japanese {
+	font-size: 14px;
+	color: #c5c5c5;
+	margin-bottom: 6px;
+	letter-spacing: 0.025em;
+	margin: 30px 0 12px 0;
+	display: inline-block;
+}
+.is-english {
+	font-family: "Raleway", sans-serif;
+	color: #000;
+	font-weight: bold;
+	font-size: 25px;
+}
+.common-text {
+	color: #868282;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	line-height: 1.714;
+}
+.section-common-brand .common-button {
+	font-size: 16px;
+	min-width: 250px;
+}
+.common-button {
+	display: inline-block;
+	border: 1px solid #333;
+	color: #ffff;
+	background: #333;
+	text-align: center;
+}
+.common-button {
+	margin-top: 42px;
+	background-color: #333333;
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: 15px 70px;
+}
+.common-button:hover {
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+	outline: none;
+}
+.images-brand {
+	position: relative;
+}
+.images-brand .images-brand-first {
+	height: auto;
+	width: 700px;
+}
+.images-brand .images-brand-last {
+	height: auto;
+	width: 350px;
+}
+.images-brand-last {
+	position: absolute;
+	top: 209px;
+	right: -113px;
+}
+/*==================== section-best-seller =====================*/
+.section-best-seller {
+	padding: 67px 0;
+	background: url(../images/bg_best_seller.png) no-repeat center/cover;
+}
+.wp-section-best-seller {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.common-title {
+	text-align: center;
+	position: relative;
+}
+.is-japanese {
+	margin-bottom: 6px;
+	color: #c5c5c5;
+	letter-spacing: 0.025em;
+	font-weight: 600;
+}
+.best-seller-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px 50px;
+}
+.common-title-line {
+	width: 100px;
+	text-align: center;
+}
+.best-seller-detail {
+	width: 33.33%;
+	padding: 0 20px;
+}
+.best-seller-detail a:hover {
+	text-decoration: none;
+}
+.best-seller-img {
+	text-align: center;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+.main-content-product {
+	text-align: center;
+}
+.text-face {
+	margin-bottom: 5px;
+	color: #f4584b;
+	display: inline-block;
+}
+.product-name {
+	font-size: 16px;
+	color: #868282;
+	text-decoration: none;
+	margin-bottom: 3px;
+}
+.product-name:hover {
+	color: #868282;
+	text-decoration: none;
+}
+.product-price {
+	font-size: 16px;
+	color: #333;
+	margin: 0 10px;
+}
+.original-price {
+	color: #c5c5c5;
+	text-decoration-line: line-through;
+}
+.old-price {
+	color: #333;
+	font-size: 16px;
+	margin: 0 10px;
+}
+.wp-button {
+	margin: 0px auto;
+	text-align: center;
+}
+.content-best-seller-button {
+	background-color: #333;
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: 12px 35px;
+	transition: background 0.3s, color 0.3s;
+}
+.content-best-seller-button:hover {
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #333;
+	outline: none;
+}
+/*==================== section-guide =====================*/
+.section-common-guide {
+	padding: 80px 0;
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-common-guide {
+	padding-top: 4px;
+}
+.guide-block {
+	width: 50%;
+}
+.common-title {
+	padding-bottom: 24px;
+	margin-bottom: 5px;
+	text-align: center;
+	position: relative;
+}
+.is-japanese {
+	margin-bottom: 6px;
+	color: #c5c5c5;
+	letter-spacing: 0.025em;
+}
+.is-english {
+	font-size: 27px;
+	color: #000;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.common-guide-line {
+	color: #c1c1c1;
+	width: 159px;
+	height: 1px;
+	text-align: center;
+}
+.block-images {
+	display: flex;
+	position: relative;
+}
+.block-images .block-images-first {
+	height: 238px;
+	width: 370px;
+}
+.block-images .block-images-last {
+	height: 400px;
+	width: 300px;
+	margin-left: -158px;
+	margin-top: 125px;
+}
+.guide-images-first {
+	margin-bottom: 55px;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+.guide-content {
+	padding: 0 30px;
+}
+.common-text {
+	color: #868282;
+	font-weight: 500;
+}
+.wrap-button .common-button {
+	font-size: 16px;
+	text-decoration: none;
+}
+/*==================== section-advantages =====================*/
+.section-common-advantages {
+	background: #fbfbfb;
+}
+.wp-advantages {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.common-advantages-line {
+	text-align: center;
+	width: 8%;
+}
+.advantages-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -20px;
+}
+.advantage-detail {
+	width: calc(33.33% - 40px);
+	margin: 0 20px 20px;
+	padding-top: 15px;
+}
+.wp-advantage-img {
+	margin: 0 100px;
+}
+.advantage-image {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 47px;
+}
+.advantage-title {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 800;
+	letter-spacing: 0.03em;
+	color: #333;
+}
+.common-advantage-text {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	line-height: 1.714;
+	color: #707070;
+}
+/*==================== section-products =====================*/
+.section-common-collection {
+	padding: 80px 0;
+}
+.wp-collection {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.common-collection-line {
+	text-align: center;
+	width: 8%;
+}
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+.products-list .product-link:hover {
+	text-decoration: none;
+}
+.products-list .product-detail {
+	width: calc(25% - 30px);
+	margin: 0 15px 20px;
+}
+.product-link {
+	display: block;
+}
+.product-link .wrap-image-product {
+	position: relative;
+	transition: box-shadow 0.4s;
+}
+.products-list .product-image {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+.product-image:hover {
+	box-shadow: 0 0 10px #00000080;
+	transition: box-shadow 0.4s, visibility 0.4s;
+}
+.products-list .select-list {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+	opacity: 0;
+	visibility: hidden;
+}
+.products-list .select-list > li {
+	width: 32px;
+	margin: 0 5px;
+	box-shadow: 0 2px 5px #00000029;
+}
+.select-list img {
+	width: 100%;
+}
+.select-list li {
+	border-radius: 50%;
+}
+.product-link:hover .select-list {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.4s, visibility 0.4s;
+}
+.products-list .select-list .is-hover {
+	display: none;
+}
+.products-list .main-content-product {
+	margin-bottom: 23px;
+}
+.main-content-product .text-face {
+	margin-bottom: 5px;
+}
+.main-content-product .product-name {
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+.main-content-product .product-price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.products-list .main-content-product {
+	margin-bottom: 23px;
+}
+.main-content-product .product-price span {
+	margin: 0 10px;
+}
+.main-content-product {
+	text-align: center;
+}
+.main-content-product .original-price {
+	color: #c5c5c5;
+	text-decoration-line: line-through;
+}
+.products-list .color-list {
+	display: flex;
+	justify-content: center;
+}
+.products-list .is-tag {
+	position: absolute;
+	top: 10px;
+	right: 1px;
+	min-width: 90px;
+	font-size: 15px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+.products-list .is-new {
+	background-color: #427a1e;
+}
+.products-list .is-new-sale {
+	background-color: #f4584b;
+}
+.products-list .color-list > li {
+	margin: 0 5px;
+	width: 25px;
+	height: 25px;
+}
+.products-list .is-medium-light {
+	background-color: #f2c8b2;
+}
+.products-list .is-bright-light {
+	background-color: #ffe9de;
+}
+.products-list .is-brown {
+	background-color: #a86f52;
+}
+.products-list .is-medium-brown {
+	background-color: #e4bd9b;
+}
+.products-list .is-light {
+	background-color: #f5e0cb;
+}
+/*==================== section-testimonial =====================*/
+.section-common-testimonial {
+	position: relative;
+	padding: 80px 0;
+}
+.section-icon {
+	width: 3%;
+	position: absolute;
+	top: -13px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.section-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fbfbfb;
+	z-index: -1;
+}
+.wp-testomonial {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrapper-slider {
+	display: flex;
+	flex-wrap: wrap;
+	width: 750px;
+	margin: 0 auto;
+}
+.section-common-testimonial .common-text {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 33px;
+}
+.section-common-testimonial .wp-sign {
+	text-align: center;
+}
+.section-common-testimonial .line-sign {
+	width: 8%;
+	margin: 0 auto;
+}
+.section-common-testimonial .signature {
+	font-size: 17px;
+	font-family: "Raleway", sans-serif;
+	padding: 0 23px;
+	display: inline-block;
+	position: relative;
+	background: #fbfbfb;
+	font-weight: bold;
+	color: #707070;
+	font-size: 16px;
+}
+.section-common-testimonial .signature::after {
+	content: "";
+	position: absolute;
+	right: -35px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	height: 1px;
+	background: #c1c1c1;
+}
+.section-common-testimonial .signature::before {
+	content: "";
+	position: absolute;
+	left: -35px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	height: 1px;
+	background: #c1c1c1;
+}
+/*==================== section-blog =====================*/
+.section-blog {
+	padding: 75px 0 30px;
+}
+.wp-blog {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blog-list {
+	display: flex;
+	margin: 0 -15px;
+}
+.common-blog-line {
+	text-align: center;
+	width: 8%;
+}
+.blog-list .blog-detail {
+	width: calc(33.33% - 30px);
+	margin: 0 15px 30px;
+}
+.blog-detail .blog-title {
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	line-height: 1.56;
+	color: #333;
+}
+.blog-detail .author-category {
+	margin-bottom: 15px;
+}
+.author-category .blog-category {
+	color: #f4584b;
+}
+.blog-detail .blog-link:hover {
+	color: #f4584b;
+}
+.blog-detail .blog-link {
+	color: #707070;
+	display: inline-block;
+	text-decoration: underline;
+}
+.blog-detail .blog-text {
+	margin-bottom: 20px;
+}
+/*==================== Footer =====================*/
+footer {
+	padding: 15px 0 60px;
+}
+.wp-footer {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer .common-text {
+	width: 750px;
+	margin: 0 auto 18px;
+}
+.common-text {
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	line-height: 1.714;
+	text-align: inherit;
+}
+.organ-cosmetics-list {
+	margin-bottom: 63px;
+}
+.organ-cosmetics-wrap {
+	padding-top: 36px;
+	position: relative;
+}
+.organ-cosmetics-wrap .organ-title {
+	font-size: 16px;
+	text-align: center;
+	top: 12px;
+	margin-left: -176px;
+	min-width: 350px;
+	position: absolute;
+	left: 50%;
+	display: inline-block;
+	padding: 14px 20px;
+	color: #fff;
+	background: #333;
+	z-index: 2;
+}
+.organ-cosmetics-list .organ-product {
+	width: 20%;
+}
+.organ-product .link-product .organ-img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+.organ-cosmetics-list .link-product:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(51, 51, 51, 0.52);
+	z-index: 1;
+}
+.organ-cosmetics-list .link-product:before,
+.organ-cosmetics-list .link-product .quantity-like {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s, visibility 0.3s;
+}
+.organ-cosmetics-list {
+	margin-bottom: 63px;
+	display: flex;
+}
+.wp-footer-cp {
+	width: 1090px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-footer-cp .footer-logo img {
+	display: block;
+	height: auto;
+	width: 115px;
+	margin: 0 auto 33px;
+}
+.wp-footer-nav {
+	position: relative;
+	margin: 30px 137px 0;
+}
+.footer-nav {
+	padding: 0 35px;
+	background: #fff;
+	display: inline-block;
+	position: relative;
+}
+.footer-nav::after {
+	content: "";
+	position: absolute;
+	right: -149px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	height: 1px;
+	background: #c1c1c1;
+}
+.footer-nav::before {
+	content: "";
+	position: absolute;
+	left: -155px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20%;
+	height: 1px;
+	background: #c1c1c1;
+}
+.footer-nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-nav-list > li {
+	margin: 0 25px;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+.footer-nav-list a {
+	color: #333;
+	text-decoration: none;
+}
+.footer-nav-list a:hover {
+	color: #333;
+	text-decoration: none;
+}
+.copyright {
+	margin-top: 15px;
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	color: #817f7f;
+	letter-spacing: 0.06em;
+	font-family: "Raleway", sans-serif;
+}
